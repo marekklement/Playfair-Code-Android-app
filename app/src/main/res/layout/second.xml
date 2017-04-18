@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40pt"
+        android:text="Na této stránce zadejte text k přeložení:"
+        android:textSize="14pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginLeft="10px"
+        android:gravity="center"/>
+
+    <EditText
+        android:hint="Napište nějaký text..."
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:inputType="text"
+        android:ems="10"
+        android:id="@+id/text" />
+
+    <Button
+        android:text="Zakódovat"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:id="@+id/trans"
+        android:layout_margin="10px"
+        android:onClick="Handler"/>
+
+    <Button
+        android:text="Dekódovat"
+        android:layout_width="400px"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="@color/white"
+        android:id="@+id/Untranslate"
+        android:layout_margin="10px"
+        android:onClick="Handler"/>
+    <Button
+        android:text="Zpět"
+        android:layout_width="400px"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:id="@+id/bckbut"
+        android:layout_margin="10px"
+        android:onClick="Handler"/>
+
+    <Button
+        android:text="Konec"
+        android:layout_width="400px"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:id="@+id/endbut"
+        android:layout_margin="10px"
+        android:onClick="Handler"/>
+
+
+
+</LinearLayout>
